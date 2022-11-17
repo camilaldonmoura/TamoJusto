@@ -1,0 +1,31 @@
+package stepdefinitions;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utils.Constants;
+import utils.DriveManager;
+import pages.ChoosingProductsPage;
+import actions.ChoosingProductsAction;
+import actions.LoggingAccountAction;
+import pages.LoggingAccountPage;
+
+public class cenarioUmStep {
+	DriveManager manager = new DriveManager();
+	WebDriver driver = manager.AbrirUrl();
+	LoggingAccountAction actions2 = PageFactory.initElements(driver, LoggingAccountAction.class);
+	ChoosingProductsAction actions3 = PageFactory.initElements(driver, ChoosingProductsAction.class);
+	
+	
+	public void cenarioUmStep() {
+			
+	}
+}

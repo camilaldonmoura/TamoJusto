@@ -1,0 +1,23 @@
+@cenarioDois
+
+
+Feature: Validar Compra de produtos alterando o endereço de Cobranca
+
+
+
+
+Scenario Outline:
+
+Given que como heroi tenho "<emailLogin>", "<passwdLogin>", "<url2>" credenciais validas 
+And escolho o produto que desejo comprar
+And incluo o produto no carrinho de compras "<txtNewAddress>", "<NewAddress2>", "<txtNewCity>", "<txtNewPostCode>", "<txtNewPhone>","<txtNewMobilePhone>", "<writetxtInformation>", "<txtOtherAddress>","<txtLeiaEsseCampoPlease>"
+And confirmo o Proceed to checkout
+And altero o endereco de cobranca
+When finalizo o checkout
+And escolho a opcao Pay by Bank Wire
+And confirmo o pedido
+Then minha compra foi concluida com sucesso
+
+
+
+

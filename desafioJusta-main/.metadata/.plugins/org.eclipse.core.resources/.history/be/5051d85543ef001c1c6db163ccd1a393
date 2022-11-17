@@ -1,0 +1,88 @@
+package stepdefinitions;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utils.Constants;
+import utils.DriveManager;
+import pages.ChoosingProductsPage;
+import actions.ChoosingProductsAction;
+import actions.LoggingAccountAction;
+import pages.LoggingAccountPage;
+import pages.ChoosingProductsPage;
+import pages.ChoosingProductsPage;
+
+
+
+public class cenarioUmStep {
+	DriveManager manager = new DriveManager();
+	WebDriver driver = manager.AbrirUrl();
+	LoggingAccountAction actions2 = PageFactory.initElements(driver, LoggingAccountAction.class);
+	ChoosingProductsAction actions3 = PageFactory.initElements(driver, ChoosingProductsAction.class);
+	
+	
+	public void cenarioUmStep() {
+			
+	}
+	@Given("usuario acessa o site {string}")
+	public void usuario_acessa_o_site(String url2) {
+driver.get(url2);
+driver.manage() .window() .maximize();
+			
+}
+	
+	@And("que como Heroi tenho credenciais validas  {string}, {string} ")
+	public void que_como_heroi_tenho_credenciais_validas(String emailLogin, String passwdLogin) {
+		actions2.clicarSingIn();
+		actions2.writeEmailLoggin(emailLogin);
+		actions2.writeTxtpasswdLoggin(passwdLogin);
+	}
+
+	@And("estou logado no site")
+	public void estou_logado_no_site() {
+		actions2.clickSubmitLogin();
+	}
+
+	@And("escolho o produto que desejo comprar")
+	public void escolho_o_produto_que_desejo_comprar() {
+		actions3.clickbtnTshirt();		    
+	}
+
+	@And("seleciono o frete")
+	public void seleciono_o_frete() {
+		actions3.clickselectSale();
+	
+	}
+
+	@And("concordo com os Terms of service")
+	public void concordo_com_os_terms_of_service() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("seleciono a opcao Pay by check")
+	public void seleciono_a_opcao_pay_by_check() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@And("confirmo meu Pedido")
+	public void confirmo_meu_pedido() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("minha compra foi concluida com sucesso")
+	public void minha_compra_foi_concluida_com_sucesso() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

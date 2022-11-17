@@ -1,0 +1,108 @@
+package stepdefinitions;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utils.Constants;
+import utils.DriveContext;
+import utils.DriveManager;
+import pages.ChoosingProductsPage;
+import actions.ChoosingProductsAction;
+import actions.LoggingAccountAction;
+import pages.ChoosingProductsPage;
+import pages.ChoosingProductsPage;
+
+public class cenarioDoisStep {
+	DriveManager manager = new DriveManager();
+	WebDriver driver = manager.AbrirUrl();
+	ChoosingProductsAction actions3 = PageFactory.initElements(driver, ChoosingProductsAction.class);
+
+public void cenarioDoisStep() {
+	
+	}
+@Given("heroi abrir site {string}")
+public void heroi_abrir_site(String url2) {
+	driver.get(url2);
+	driver.manage() .window() .maximize();
+		
+}
+
+@And("que como heroi tenho {string}, {string} credenciais validas")
+public void que_como_heroi_tenho_credenciais_validas(String emailLogin, String passwdLogin) {
+	actions3.clicarSingIn();
+	actions3.writeEmailLoggin(emailLogin);
+	actions3.writeTxtpasswdLoggin(passwdLogin);
+}
+@And ("escolho o produto que desejo comprar")
+public void escolho_o_produto_que_desejo_comprar() {
+	actions3.clickbtnWomen();
+	actions3.clickradioMoreTops();
+	actions3.clickcategoryBlouses();
+	actions3.clickbtnList();
+}
+
+@And("incluo o produto no carrinho de compras")
+public void incluo_o_produto_no_carrinho_de_compras() {
+	actions3.clickbtnAddCart2();
+}
+
+@And("confirmo o Proceed to checkout")
+public void confirmo_o_Proceed_to_checkout() {
+	actions3.clickbtnProceedCheckout();
+}
+
+@And("altero os dados {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string} de cobranca ")
+public void altero_os_dados_de_cobranca(String txtNewAddress, String txtNewAddress2, String txtNewCity, String txtNewPostCode, String txtNewPhone, String txtNewMobilePhone, String txtInformation, String txtOtherAddress, String txtLeiaEsseCampoPlease) {
+	actions3.clickbtnBillingAddress();
+	actions3.writetxtNewAddress();
+	actions3.writetxtNewAddress("Avenida Engenheiro Antonio de Goes");
+	actions3.writetxtNewAddress2();
+	actions3.writetxtNewAddress2("Sala 401 - Pina");
+	actions3.writetxtNewCity();
+	actions3.writetxtNewCity("Recife");
+	actions3.comboBoxNewState("38");
+	actions3.writetxtNewPostCode();
+	actions3.writetxtNewPostCode("00000");
+	actions3.writetxtNewPhone();
+	actions3.writetxtNewPhone("400-1688");
+	actions3.writetxtNewMobilePhone();
+	actions3.writetxtNewMobilePhone("08008788307");
+	actions3.writetxtInformation("Justassência");
+	actions3.writetxtOtherAddress();
+	actions3.writetxtOtherAddress("testando2@justa.com.vc");
+	actions3.clickbtnSaveNewAddress();
+}
+
+@When("finalizo o checkout")
+public void finalizo_o_checkout() {
+	actions3.clickbtnProceedCheckout2();
+}
+
+@And("escolho a opcao Pay by Bank Wire")
+public void escolho_a_opcao_pay_by_bank_wire() {
+	actions3.checkboxTerms();
+	actions3.clickbtnProceedCheckout3();
+	actions3.clicklinkPayByBank();
+}
+
+@And("confirmo o pedido")
+public void confirmo_o_pedido() {
+	actions3.clickbtnConfirmMyOrder();
+}
+
+@Then ("minha compra foi concluida")
+public void minha_compra_foi_concluida() {
+	
+}
+
+}

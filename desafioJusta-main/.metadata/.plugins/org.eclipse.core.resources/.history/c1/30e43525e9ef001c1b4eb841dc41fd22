@@ -1,0 +1,24 @@
+@cenarioTres
+
+Feature: Validar Compra de produtos alterando o endereco de Entrega
+
+Background:
+Given eu abrir o site indicado "http://automationpractice.com/index.php"
+
+
+Scenario Outline:
+And estou logado no site "<emailLogin>", "<passwdLogin>"
+And escolho o produto indicado
+And incluo o produto no carrinho de compras
+And confirmo o checkout
+And altero o endereco de entrega "<newAddress>", "<newAddress2>", "<newCity>", "<NewPostCode>", "<NewPhone>", "<MobilePhone>", "<information>", "<OtherAddress>", "<leiaPlease>"
+When finalizo o checkout
+And escolho a opcao Pay By Check
+And confirmo o pedido
+Then minha compra foi concluida com sucesso
+
+
+Examples:
+
+|emailLogin|passwdLogin|newAddress |newAddress2 |newCity |NewPostCode |NewPhone |MobilePhone |information |OtherAddress|leiaPlease|
+|candidato@justa.com.vc|tamojusto|Alameda Xingu|23 andar Alphaville|Sao Paulo|00000 |4001688|08008788307|vemSerGenteJusta |testando3@justa.com.vc|TamoJusto|

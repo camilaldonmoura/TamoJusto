@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+C:\Users\55819\Downloads\desafioJusta-main\.metadata\.plugins\org.eclipse.jdt.core
+2937078050.index
+4155719236.index
+755977295.index
+1218262607.index
+774903953.index
+1348578532.index
+3964603257.index
+3868391431.index
+3862289657.index
+1865797976.index
+3952081186.index
+2045531912.index
+3677907205.index
+1818689556.index
+2904582190.index
+2670045258.index
+2693107576.index
+860804904.index
+1263338151.index

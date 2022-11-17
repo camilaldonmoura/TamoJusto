@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="academia-seleniumwebdriver" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.Runner" time="154.028" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]">
+    <testsuite name="Validar Compra de produtos alterando o endere�o de Cobranca" time="74.191" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACdZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb0RvaXMuZmVhdHVyZXg=]">
+      <testcase name="(Validar Compra de produtos alterando o endere�o de Cobranca)" classname="Validar Compra de produtos alterando o endere�o de Cobranca" time="74.191" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACdZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb0RvaXMuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAnWZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRG93bmxvYWRzL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW8tanVzdGEvYWNhZGVtaWEtc2VsZW5pdW13ZWJkcml2ZXIvc3JjL3Rlc3QvcmVzb3VyY2VzL2ZlYXR1cmVzL2NlbmFyaW9Eb2lzLmZlYXR1cmV4]"/>
+    </testsuite>
+    <testsuite name="Validar Compra de produtos alterando o endereco de Entrega" time="34.0" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACdZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1RyZXMuZmVhdHVyZXg=]">
+      <testcase name="(Validar Compra de produtos alterando o endereco de Entrega)" classname="Validar Compra de produtos alterando o endereco de Entrega" time="34.0" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACdZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1RyZXMuZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABZzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAnWZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRG93bmxvYWRzL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW8tanVzdGEvYWNhZGVtaWEtc2VsZW5pdW13ZWJkcml2ZXIvc3JjL3Rlc3QvcmVzb3VyY2VzL2ZlYXR1cmVzL2NlbmFyaW9UcmVzLmZlYXR1cmV4]"/>
+    </testsuite>
+    <testsuite name="Validar Compra de produto com o Pagamento por Cheque" time="45.808" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACbZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1VtLmZlYXR1cmV4]">
+      <testcase name="(Validar Compra de produto com o Pagamento por Cheque)" classname="Validar Compra de produto com o Pagamento por Cheque" time="45.808" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACbZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9Eb3dubG9hZHMvZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpb0p1c3RhLW1haW4vZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1VtLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABlzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAm2ZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRG93bmxvYWRzL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW9KdXN0YS1tYWluL2Rlc2FmaW8tanVzdGEvYWNhZGVtaWEtc2VsZW5pdW13ZWJkcml2ZXIvc3JjL3Rlc3QvcmVzb3VyY2VzL2ZlYXR1cmVzL2NlbmFyaW9VbS5mZWF0dXJleA==]">
+        <error>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: SubmitLogin' (tried for 20 second(s) with 500 milliseconds interval)&#13;
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#13;
+	at actions.ChoosingProductsAction.clickSubmitLogin(ChoosingProductsAction.java:172)&#13;
+	at stepdefinitions.cenarioUmStep.estou_logado_no_site(cenarioUmStep.java:54)&#13;
+	at ✽.estou logado no site(file:///C:/Users/55819/Downloads/desafioJusta-main/desafioJusta-main/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioUm.feature:15)&#13;
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#SubmitLogin"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\55819\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63535}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a333eef8df5cf3c13d05b4aa4aad053f
+*** Element info: {Using=id, value=SubmitLogin}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#13;
+	at org.openqa.selenium.By$ById.findElement(By.java:188)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#13;
+	at actions.ChoosingProductsAction.clickSubmitLogin(ChoosingProductsAction.java:172)&#13;
+	at stepdefinitions.cenarioUmStep.estou_logado_no_site(cenarioUmStep.java:54)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)&#13;
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)&#13;
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)&#13;
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)&#13;
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)&#13;
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)&#13;
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)&#13;
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)&#13;
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)&#13;
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91)&#13;
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

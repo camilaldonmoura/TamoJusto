@@ -1,0 +1,30 @@
+@cenarioUm
+
+
+@AfterEach
+	void tearDown() throws Exception {
+		driver.quit();
+	}
+
+
+Feature: Validar Compra de produto com o Pagamento por Cheque
+
+
+Background:
+		Given heroi abrir site "http://automationpractice.com/index.php"
+
+
+		
+Scenario Outline:
+And como heroi tenho "<emailLogin>", "<passwdLogin>" credenciais validas 
+And estou logado no site
+And escolho o produto que desejo comprar
+And seleciono o frete "<txtAdditionalInformation>"
+And concordo com os Terms of service
+When seleciono a opcao Pay by check
+And confirmo meu Pedido
+Then minha compra foi concluida com sucesso
+
+Examples:
+|emailLogin| passwdLogin|txtAdditionalInformation | 
+|candidato@justa.com.vc|tamojusto|#ModoRun |

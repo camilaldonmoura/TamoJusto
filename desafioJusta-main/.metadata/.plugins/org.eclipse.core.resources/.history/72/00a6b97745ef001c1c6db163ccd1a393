@@ -1,0 +1,19 @@
+@cenarioUm
+Feature: Validar Compra de produto com o Pagamento por Cheque
+
+Background: Abrir site
+		Given usuario abrir site "http://automationpractice.com/index.php"
+		
+Scenario Outline: Acessar site
+And que como Heroi tenho credenciais validas "<emailLogin>", "<passwdLogin>"
+And estou logado no site
+And escolho o produto que desejo comprar
+And seleciono o frete "<LeiaEsseCampoPlease>"
+And concordo com os Terms of service
+When seleciono a opcao Pay by check
+And confirmo meu Pedido
+Then minha compra foi concluida com sucesso
+
+Examples:
+|emailLogin             |passwdLogin |LeiaEsseCampoPlease                              | 
+|candidato@justa.com.vc |tamojusto   |Thanks, ladies and gentlemen, you've been great. |

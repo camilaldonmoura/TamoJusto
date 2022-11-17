@@ -1,0 +1,98 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import utils.Constants;
+import utils.DriveContext;
+import actions.ChoosingProductsAction;
+import actions.CreatAccountAction;
+import actions.LoggingAccountAction;
+import pages.LoggingAccountPage;
+
+
+class TestChoosingProducts {
+	WebDriver driver;
+	ChoosingProductsAction account;
+
+	@BeforeEach
+	void setUp() throws Exception {
+		System.setProperty("webdriver.chrome.driver", Constants.PATH_CHROMEDRIVER);
+		driver = new ChromeDriver();
+		driver.get("http://automationpractice.com/index.php");
+		driver.manage() .window() .maximize();
+		System.out.println(driver.getTitle());
+		Assert.assertEquals("My Store", driver.getTitle());
+		WebElement linkSingIn = driver.findElement(By.linkText("Sign in"));
+		linkSingIn.click();
+		WebElement txtEmailLoggin = driver.findElement(By.xpath("//*[@id=\"email\"]"));
+		txtEmailLoggin.sendKeys("candidato@justa.com.vc");
+		WebElement txtPasswd = driver.findElement(By.xpath("//*[@id=\"passwd\"]"));
+		txtPasswd.sendKeys("tamojusto");
+		WebElement btnSubmitLogin = driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]"));
+		btnSubmitLogin.click();
+		
+		
+		DriveContext.setDriver(driver);
+		account = new ChoosingProductsAction();
+		
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		//driver.quit();
+	}
+	
+
+	
+	@Test
+	void testCenarioTres () {
+		
+		account.clickbtnWomen();
+		account.clickselectSale();
+		account.clickbtnAddToCart();
+		account.clickbtnCheckout();
+		account.clickbtnProceedCheckout();
+		account.clickBtnDeliveryAddress();
+		account.writetxtNewAddress();
+		account.writetxtNewAddress("‍Alameda Xingu");
+		account.writetxtNewAddress2();
+		account.writetxtNewAddress2("23 andar Alphaville");
+		account.writetxtNewCity();
+		account.writetxtNewCity("Sao Paulo");
+		account.comboBoxNewState("47");
+		account.writetxtNewPostCode();
+		account.writetxtNewPostCode("00000");
+		account.writetxtNewPhone();
+		account.writetxtNewPhone("813442-5804");
+		account.writetxtNewMobilePhone();
+		account.writetxtNewMobilePhone("8198346-5186");
+		account.writetxtInformation("#vemSerGenteJusta");
+		account.writetxtOtherAddress();
+		account.writetxtOtherAddress("testando@justa.com.vc");
+		account.clickbtnSaveNewAddress();
+		account.writetxtLeiaEsseCampoPlease("#ModoRun");
+		account.clickbtnProceedCheckout2();
+		account.checkboxTerms();
+		account.clickbtnProceedCheckout3();
+		//account.clicklinkPayByBank();
+		account.clicklinkPayByCheck();
+		account.clickbtnConfirmMyOrder();
+	
+		
+	}
+	
+	@Test
+	void testeCenarioDois () {
+		
+		account.clickbtnWomen();
+		account.clickradioMoreTops();
+		account.clickcategoryBlouses();
+		account.clickselectDress();
+	}
+}

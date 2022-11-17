@@ -1,0 +1,20 @@
+@cenarioUm
+
+Feature: Validar Compra de produto com o Pagamento por Cheque
+
+Background:
+		Given heroi abrir site 
+		
+Scenario Outline:
+And que como Heroi tenho credenciais validas 
+And estou logado no site
+And escolho o produto que desejo comprar
+And seleciono o frete "<txtAdditionalInformation>"
+And concordo com os Terms of service
+When seleciono a opcao Pay by check
+And confirmo meu Pedido
+Then minha compra foi concluida com sucesso
+
+Examples:
+|LeiaEsseCampoPlease                              | 
+|Thanks, ladies and gentlemen, you've been great. |

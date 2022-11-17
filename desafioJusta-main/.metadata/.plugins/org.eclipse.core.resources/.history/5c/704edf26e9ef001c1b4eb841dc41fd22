@@ -1,0 +1,105 @@
+package stepdefinitions;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utils.Constants;
+import utils.DriveContext;
+import utils.DriveManager;
+import pages.ChoosingProductsPage;
+import actions.ChoosingProductsAction;
+import actions.LoggingAccountAction;
+import pages.ChoosingProductsPage;
+import pages.ChoosingProductsPage;
+
+
+public class cenarioTresStep {
+	DriveManager manager = new DriveManager();
+	WebDriver driver = manager.AbrirUrl();
+	ChoosingProductsAction actions3 = PageFactory.initElements(driver, ChoosingProductsAction.class);
+
+public void cenarioTresStep() {
+	
+	}
+@Given("eu abrir o site indicado {string}")
+public void eu_abrir_o_site_indicado(String url2) {
+	driver.get(url2);
+	driver.manage() .window() .maximize();
+	}
+
+@And("estou logado no site {string}, {string}")
+public void estou_logado_no_site(String emailLogin, String passwdLogin) {
+	actions3.clicarSingIn();
+	actions3.writeEmailLoggin(emailLogin);
+	actions3.writeTxtpasswdLoggin(passwdLogin);
+	actions3.clickSubmitLogin();
+
+	}	
+
+@And("escolho o produto indicado")
+public void escolho_o_produto_indicado() {
+	actions3.clickbtnWomen();
+	actions3.clickradioMoreTops();
+	actions3.clickcategoryBlouses();
+	actions3.clickbtnList();
+	}
+
+@And("confirmo o checkout")
+public void confirmo_o_checkout() {
+	actions3.clickbtnAddCart2();
+	actions3.clickbtnProcessedCheckout2();
+	actions3.clickbtnProceedCheckout();
+	}
+
+@And("altero o endereco de entrega {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}")
+public void altero_o_endereco_de_entrega(String newAddress, String newAddress2, String newCity, String NewPostCode, String NewPhone, String MobilePhone, String information, String OtherAddress, String leiaPlease) {
+	actions3.clickBtnDeliveryAddress();
+	actions3.writetxtNewAddress();
+	actions3.writetxtNewAddress(newAddress);
+	actions3.writetxtNewAddress2();
+	actions3.writetxtNewAddress2(newAddress2);
+	actions3.writetxtNewCity();
+	actions3.writetxtNewCity(newCity);
+	actions3.comboBoxNewState("18");
+	actions3.writetxtNewPostCode();
+	actions3.writetxtNewPostCode(NewPostCode);
+	actions3.writetxtNewPhone();
+	actions3.writetxtNewPhone(NewPhone);
+	actions3.writetxtNewMobilePhone();
+	actions3.writetxtNewMobilePhone(MobilePhone);
+	actions3.writetxtInformation(information);
+	actions3.writetxtOtherAddress();
+	actions3.writetxtOtherAddress(OtherAddress);
+	actions3.clickbtnSaveNewAddress();
+	actions3.writetxtLeiaEsseCampoPlease(leiaPlease);
+	}
+@When("finalizo o checkout")
+public void finalizo_o_checkout() {
+	actions3.clickbtnProceedCheckout2();
+	}
+
+@And("escolho a opcao Pay By Check")
+public void escolho_a_opcao_pay_by_check() {
+	actions3.checkboxTerms();
+	actions3.clickbtnProceedCheckout3();
+	actions3.clicklinkPayByCheck();
+	}
+@And("confirmo o pedido")
+public void confirmo_o_pedido() {
+	actions3.clickbtnConfirmMyOrder();
+	}
+@Then ("minha compra foi concluida")
+public void minha_compra_foi_concluida() {
+	
+	}
+}

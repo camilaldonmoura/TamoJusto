@@ -1,0 +1,26 @@
+@cadastro
+#Feature: Cadastro em E-commerce
+
+
+	#Background: Abrir site
+		#Given usuario abrir site "http://automationpractice.com/index.php"
+	
+	
+				
+	#Scenario Outline: Acessar site 
+		#When usuario clicar no botao linkSignIn
+	  #And preencher o  "<email>"  no campo de E-mail
+		#And clicar no botao CreateAccount
+		#And quando abrir pagina de cadastro
+		#And selecionar o TitleChoose
+		#And preencher o "<FirstName>", "<LastName>", "<passwd>", "<comboboxDay>", "<comboboxMonths>", "<comboboxYears>" 
+		#And clicar na  Newsletter
+		#And clicar na  opcional
+		#And preencher a  "<txtCompany>", "<txtAddress>", "<txtAddressTwo>", "<txtCity>", "<State>"
+		#And preencher o  "<txtPostalCode>", "<txtAdditionalInformation>", "<txtHomePhone>", "<txtPhoneMobile>", "<txtAddressAlias>"
+		#And clicar no botao SubmitAccount
+		#Then fechar o navegador
+		
+		#Examples:
+		|email								      |FirstName |LastName |passwd    |comboboxDay |comboboxMonths |comboboxYears |txtCompany |txtAddress          |txtAddressTwo |txtCity   |State              |txtPostalCode |txtAdditionalInformation                                                              |txtHomePhone      |txtPhoneMobile      |txtAddressAlias   |
+		|camilalnm@gmail.com |Camila    |Moura    |Teste@123 |9           |2              |1990          |Accenture  |155 6th Ave, U.S.A  |10th Floor    |New York  |32                 |00000         |Important to carry document with photo for registration and release at the concierge. |+1 (212) 380-7700 |+1 (212) 98888-7845 |155 6th Ave - NY  |

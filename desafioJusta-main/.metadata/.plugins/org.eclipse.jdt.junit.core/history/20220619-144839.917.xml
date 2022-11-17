@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="academia-seleniumwebdriver" tests="3" started="3" failures="0" errors="2" ignored="0">
+  <testsuite name="runner.Runner" time="89.695" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]">
+    <testsuite name="Validar Compra de produtos alterando o endere�o de Cobranca" time="89.126" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvRG9pcy5mZWF0dXJleA==]">
+      <testcase name="(Validar Compra de produtos alterando o endere�o de Cobranca)" classname="Validar Compra de produtos alterando o endere�o de Cobranca" time="89.126" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvRG9pcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAkGZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb0RvaXMuZmVhdHVyZXg=]"/>
+    </testsuite>
+    <testsuite name="Validar Compra de produtos alterando o endereco de Entrega" time="0.415" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVHJlcy5mZWF0dXJleA==]">
+      <testcase name="(Validar Compra de produtos alterando o endereco de Entrega)" classname="Validar Compra de produtos alterando o endereco de Entrega" time="0.415" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVHJlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABZzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAkGZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1RyZXMuZmVhdHVyZXg=]">
+        <error>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;
+	at stepdefinitions.cenarioTresStep.eu_abrir_o_site_indicado(cenarioTresStep.java:36)&#13;
+	at ✽.eu abrir o site indicado "http://automationpractice.com/index.php"(file:///C:/Users/55819/Desktop/Desafio%20QA%20-%20JUSTA/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioTres.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Validar Compra de produto com o Pagamento por Cheque" time="0.136" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACOZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVW0uZmVhdHVyZXg=]">
+      <testcase name="(Validar Compra de produto com o Pagamento por Cheque)" classname="Validar Compra de produto com o Pagamento por Cheque" time="0.136" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACOZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVW0uZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABlzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAjmZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1VtLmZlYXR1cmV4]">
+        <error>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;
+	at stepdefinitions.cenarioUmStep.heroi_abrir_site(cenarioUmStep.java:40)&#13;
+	at ✽.heroi abrir site "http://automationpractice.com/index.php"(file:///C:/Users/55819/Desktop/Desafio%20QA%20-%20JUSTA/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioUm.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,157 @@
+package actions;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pages.ChoosingProductsPage;
+import pages.CreatAccountPage;
+import pages.LoggingAccountPage;
+import utils.DriveContext;
+
+
+
+public class ChoosingProductsAction extends ChoosingProductsPage  {
+	protected WebDriverWait wait; 
+	
+	public ChoosingProductsAction() {
+		wait = new WebDriverWait(DriveContext.getDriver(),20);	
+		}
+	
+	public void clickbtnWomen() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnWomen)).click();
+	}
+	public void clickradioMoreTops() {
+		wait.until(ExpectedConditions.elementToBeClickable(radioMoreTops)).click();
+	
+	}
+	public void clickcategoryBlouses() {
+		wait.until(ExpectedConditions.elementToBeClickable(categoryBlouses)).click();
+
+	}
+	public void clickselectSale() {
+		wait.until(ExpectedConditions.elementToBeClickable(selectSale)).click();
+
+	}
+	public void clickbtnHome() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnHome)).click();
+
+	}
+	
+	public void clickBtnDeliveryAddress() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnDeliveryAddress)).click();
+
+	}
+	
+	public void clickselectDress() {
+		wait.until(ExpectedConditions.elementToBeClickable(selectDress)).click();
+
+	}
+	public void clickbtnAddToCart() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnAddToCart)).click();
+
+	}
+	public void clickbtnCheckout() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnCheckout)).click();
+
+	}
+	public void clickbtnQuantityUp() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnQuantityUp)).click();
+	
+	}
+	public void clickbtnProceedCheckout() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnProceedCheckout)).click();	
+
+	}
+	public void writetxtLeiaEsseCampoPlease(String leiaPlease) {
+		wait.until(ExpectedConditions.visibilityOf(txtLeiaEsseCampoPlease)).sendKeys(leiaPlease);
+	
+	}
+	public void clickbtnProceedCheckout2() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnProceedCheckout2)).click();	
+
+	}
+	public void checkboxTerms() {
+		wait.until(ExpectedConditions.elementToBeClickable(checkboxTerms)).click();	
+				
+	}
+	public void clickbtnProceedCheckout3() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnProceedCheckout3)).click();	
+				
+	}
+	public void clicklinkPayByBank() {
+		wait.until(ExpectedConditions.elementToBeClickable(linkPayByBank)).click();
+	}
+	public void clickbtnConfirmMyOrder() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnConfirmMyOrder)).click();
+	
+	}
+	public void clicklinkPayByCheck() {
+		wait.until(ExpectedConditions.elementToBeClickable(linkPayByCheck)).click();
+				
+	}
+	public void writetxtNewAddress(String newAddress) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewAddress)).sendKeys(newAddress);
+	
+	}
+	public void writetxtNewAddress() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewAddress)).clear();
+	}
+	public void writetxtNewAddress2() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewAddress2)).clear();
+	}
+	public void writetxtNewAddress2(String newAddress2) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewAddress2)).sendKeys(newAddress2);	
+	}
+	public void writetxtNewCity() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewCity)).clear();
+	}
+	public void writetxtNewCity(String newCity) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewCity)).sendKeys(newCity);
+	}
+	public void comboBoxNewState(String newState) {
+		Select combo = new Select(comboBoxNewState);	
+		combo.selectByValue(newState);				
+	}
+	public void writetxtNewPostCode() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewPostCode)).clear();
+	}
+	public void writetxtNewPostCode(String NewPostCode) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewPostCode)).sendKeys(NewPostCode);	
+	}
+	public void writetxtNewPhone() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewPhone)).clear();
+	}
+	public void writetxtNewPhone(String NewPhone) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewPhone)).sendKeys(NewPhone);	
+	}
+	public void writetxtNewMobilePhone() {
+		wait.until(ExpectedConditions.visibilityOf(txtNewMobilePhone)).clear();
+	}
+	public void writetxtNewMobilePhone(String MobilePhone) {
+		wait.until(ExpectedConditions.visibilityOf(txtNewMobilePhone)).sendKeys(MobilePhone);	
+	}
+	public void writetxtInformation(String information) {
+		wait.until(ExpectedConditions.visibilityOf(txtInformation)).sendKeys(information);	
+	}
+	public void clickbtnSaveNewAddress() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnSaveNewAddress)).click();
+	}
+	public void writetxtOtherAddress() {
+		wait.until(ExpectedConditions.visibilityOf(txtOtherAddress)).clear();
+	}
+	public void writetxtOtherAddress(String OtherAddress) {
+		wait.until(ExpectedConditions.visibilityOf(txtOtherAddress)).sendKeys(OtherAddress);	
+	}
+	public void clickbtnList() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnList)).click();
+	}
+	public void clickbtnAddCart2() {
+		wait.until(ExpectedConditions.elementToBeClickable(btnAddCart2)).click();
+	}
+
+}

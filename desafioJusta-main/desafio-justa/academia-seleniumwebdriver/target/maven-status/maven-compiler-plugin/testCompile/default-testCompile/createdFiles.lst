@@ -1,0 +1,14 @@
+runner\Runner.class
+tests\TestMyStore.class
+stepdefinitions\StepsDefinition.class
+pages\LoginPage.class
+stepdefinitions\Hooks.class
+pages\HomePage.class
+outropacote\TestClasseO.class
+pages\CarrinhoPage.class
+tests\TestMyStoreJunit.class
+pages\ProdutoPage.class
+tests\TestMyStoreJunit2.class
+pages\CadastroPage.class
+tests\TestClasseT.class
+pages\ContatoPage.class

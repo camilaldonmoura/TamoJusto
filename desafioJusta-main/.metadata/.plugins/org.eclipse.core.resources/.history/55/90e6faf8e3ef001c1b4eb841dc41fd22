@@ -1,0 +1,27 @@
+@cenarioDois
+
+
+Feature: Validar Compra de produtos alterando o endereço de Cobranca
+
+Background:
+Given que abri o site "http://automationpractice.com/index.php"
+
+
+Scenario Outline:
+
+
+And que como heroi tenho "<emailLogin>", "<passwdLogin>" credenciais validas 
+And escolho o produto que desejo
+And incluo o produto no carrinho de compras
+And confirmo o Proceed to checkout
+And altero os dados de cobranca "<newAddress>", "<newAddress2>", "<newCity>", "<NewPostCode>", "<NewPhone>","<MobilePhone>", "<information>", "<OtherAddress>","<leiaPlease>"
+When finalizo o checkout
+And escolho a opcao Pay by Bank Wire
+And confirmo o pedido
+Then minha compra foi concluida
+
+
+Examples:
+|emailLogin|passwdLogin|newAddress |newAddress2 |newCity |NewPostCode |NewPhone |MobilePhone |information |OtherAddress|leiaPlease|
+|candidato@justa.com.vc|tamojusto|Avenida Engenheiro Antonio de Goes|Sala 401 Pina|Recife|00000 |400-1688|08008788307| Justassencia |testando2@justa.com.vc|TamoJusto|
+ 

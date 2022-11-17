@@ -1,0 +1,71 @@
+package stepdefinitions;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utils.Constants;
+import utils.DriveContext;
+import utils.DriveManager;
+import pages.ChoosingProductsPage;
+import actions.ChoosingProductsAction;
+import actions.LoggingAccountAction;
+import pages.ChoosingProductsPage;
+import pages.ChoosingProductsPage;
+
+
+public class cenarioTresStep {
+	DriveManager manager = new DriveManager();
+	WebDriver driver = manager.AbrirUrl();
+	ChoosingProductsAction actions3 = PageFactory.initElements(driver, ChoosingProductsAction.class);
+
+public void cenarioTresStep() {
+	
+	}
+@Given("eu abrir o site indicado {string}")
+public void eu_abrir_o_site_indicado(String url2) {
+	driver.get(url2);
+	driver.manage() .window() .maximize();
+}
+
+@Given("estou logado no site {string}, {string}")
+public void estou_logado_no_site(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("escolho o produto indicado")
+public void escolho_o_produto_indicado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("confirmo o checkout")
+public void confirmo_o_checkout() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("altero o endereco de entrega {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}")
+public void altero_o_endereco_de_entrega(String string, String string2, String string3, String string4, String string5, String string6, String string7, String string8, String string9) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("escolho a opcao Pay By Check")
+public void escolho_a_opcao_pay_by_check() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+}

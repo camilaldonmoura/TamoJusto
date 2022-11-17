@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="academia-seleniumwebdriver" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.Runner" time="69.476" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]">
+    <testsuite name="Validar Compra de produtos alterando o endereco de Entrega" time="69.476" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVHJlcy5mZWF0dXJleA==]">
+      <testcase name="(Validar Compra de produtos alterando o endereco de Entrega)" classname="Validar Compra de produtos alterando o endereco de Entrega" time="69.476" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVHJlcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABdzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAkGZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1RyZXMuZmVhdHVyZXg=]">
+        <error>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\55819\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c44d4d7664589bb3a9be5f4f29963afe
+*** Element info: {Using=xpath, value=//*[@id="center_column"]/ul/li/div/div/div[3]/div/div[2]/a[1]}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy19.toString(Unknown Source)&#13;
+	at java.base/java.lang.String.valueOf(String.java:4215)&#13;
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:169)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)&#13;
+	at java.base/java.lang.String.valueOf(String.java:4215)&#13;
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:169)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)&#13;
+	at actions.ChoosingProductsAction.clickbtnAddCart2(ChoosingProductsAction.java:154)&#13;
+	at stepdefinitions.cenarioDoisStep.incluo_o_produto_no_carrinho_de_compras(cenarioDoisStep.java:57)&#13;
+	at ✽.incluo o produto no carrinho de compras(file:///C:/Users/55819/Desktop/Desafio%20QA%20-%20JUSTA/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioTres.feature:12)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

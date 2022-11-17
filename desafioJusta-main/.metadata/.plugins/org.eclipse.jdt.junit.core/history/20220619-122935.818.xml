@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="academia-seleniumwebdriver" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="runner.Runner" time="100.908" displayname="Runner" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]">
+    <testsuite name="Validar Compra de produtos alterando o endere�o de Cobranca" time="88.18" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvRG9pcy5mZWF0dXJleA==]">
+      <testcase name="(Validar Compra de produtos alterando o endere�o de Cobranca)" classname="Validar Compra de produtos alterando o endere�o de Cobranca" time="88.18" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACQZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvRG9pcy5mZWF0dXJleA==]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABtzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAkGZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb0RvaXMuZmVhdHVyZXg=]">
+        <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\55819\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6226f1eff1a9ad9b8f3152e907bb8c6a
+*** Element info: {Using=xpath, value=//*[@id="ordermsg"]/textarea}&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#13;
+	at actions.ChoosingProductsAction.writetxtLeiaEsseCampoPlease(ChoosingProductsAction.java:71)&#13;
+	at stepdefinitions.cenarioDoisStep.altero_os_dados_de_cobranca(cenarioDoisStep.java:86)&#13;
+	at ✽.altero os dados de cobranca "Avenida Engenheiro Antonio de Goes", "&lt;newAddress2&gt;", "Recife", "00000", "4001688", "08008788307", "Justassencia", "testando2@justa.com.vc", "TamoJusto"(file:///C:/Users/55819/Desktop/Desafio%20QA%20-%20JUSTA/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioDois.feature:17)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Validar Compra de produto com o Pagamento por Cheque" time="12.722" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACOZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVW0uZmVhdHVyZXg=]">
+      <testcase name="(Validar Compra de produto com o Pagamento por Cheque)" classname="Validar Compra de produto com o Pagamento por Cheque" time="12.722" uniqueid="[engine:junit-vintage]/[runner:runner.Runner]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdACOZmlsZTovLy9DOi9Vc2Vycy81NTgxOS9EZXNrdG9wL0Rlc2FmaW8lMjBRQSUyMC0lMjBKVVNUQS9kZXNhZmlvLWp1c3RhL2FjYWRlbWlhLXNlbGVuaXVtd2ViZHJpdmVyL3NyYy90ZXN0L3Jlc291cmNlcy9mZWF0dXJlcy9jZW5hcmlvVW0uZmVhdHVyZXg=]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABlzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQAjmZpbGU6Ly8vQzovVXNlcnMvNTU4MTkvRGVza3RvcC9EZXNhZmlvJTIwUUElMjAtJTIwSlVTVEEvZGVzYWZpby1qdXN0YS9hY2FkZW1pYS1zZWxlbml1bXdlYmRyaXZlci9zcmMvdGVzdC9yZXNvdXJjZXMvZmVhdHVyZXMvY2VuYXJpb1VtLmZlYXR1cmV4]">
+        <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0MDOPKU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\55819\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6226f1eff1a9ad9b8f3152e907bb8c6a&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;
+	at stepdefinitions.cenarioUmStep.heroi_abrir_site(cenarioUmStep.java:38)&#13;
+	at ✽.heroi abrir site "http://automationpractice.com/index.php"(file:///C:/Users/55819/Desktop/Desafio%20QA%20-%20JUSTA/desafio-justa/academia-seleniumwebdriver/src/test/resources/features/cenarioUm.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

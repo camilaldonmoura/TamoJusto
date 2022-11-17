@@ -1,0 +1,51 @@
+
+Escrita de Casos de Testes em Gherkin
+
+Responsável - Camila Luiza do N. Moura
+
+#language: pt
+#Sistema: Google Chrome, Versão 100.0.4896.75 64 bits
+#Endereço: http://automationpractice.com/index.php
+
+
+
+Funcionalidade: Compras
+
+Cenário Um: Validar Compra de produto com o pagamento por Cheque
+
+GIVE  Herói abrir site
+AND como heroi tenho credenciais validas
+AND estou logado no site
+AND escolho o produto que desejo comprar
+AND seleciono o frete
+AND concordo com os "Terms of service"
+WHEN seleciono a opção "Pay by check"
+AND confirmo o meu pedido
+THEN minha compra foi concluida com sucesso
+
+
+Cenário Dois: Validar Compra de produtos alterando o endereço de Cobrança
+
+GIVE que abri o site
+AND que como heroi tenho credenciais validas
+AND escolho o protudo que desejo
+AND incluo o produto no carrinho de compras
+AND confirmo o "Proceed to checkout"
+AND altero o endereço de cobrança
+WHEN finalizo o checkout
+AND escolho a opção "Pay by Bank Wire"
+AND confirmo o pedido
+THEN minha compra foi concluida
+
+
+Cenário Três: Validar Compra de produtos alterando o endereço de Entrega
+
+GIVE eu abrir o site indicado
+AND estou logado no site
+AND escolho o protudo indicado
+AND altero o endereço de entrega
+WHEN finalizo o check-out
+AND escolho a opção "Pay By Check"
+AND confirmo meu pedido
+THEN minha compra foi concluida com sucesso
+
